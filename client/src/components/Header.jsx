@@ -10,9 +10,10 @@ export default function Header() {
     <Navbar className="border-b-2">
       <Link
         to="/"
-        className="self-center text-sm sm:text-xl font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-2 py-1 rounded-lg text-white"
+        className="self-center whitespace-nowrap text-sm sm:text-xl dark:test-white font-semibold "
       >
-        <span>BlogBox</span>
+        <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-2 py-1 rounded-lg text-white">Blog's</span>
+        Stream
       </Link>
       <form>
         <TextInput
