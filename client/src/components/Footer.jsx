@@ -11,7 +11,7 @@ export default function FooterCom() {
           <div className="mt-5">
             <Link
               to="/"
-              className="self-center whitespace-nowrap text-lg sm:text-xl dark:test-white font-semibold "
+              className="self-center whitespace-nowrap text-lg sm:text-xl dark:text-white font-semibold "
             >
               <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-2 py-1 rounded-lg text-white">
                 Blog's
