@@ -18,9 +18,9 @@ const postSchema = new mongoose.Schema(
     image: {
       type: String,
       default:
-        "https://www.salesforce.com/ca/blog/wp-content/uploads/sites/12/2023/10/anatomy-of-a-blog-post-deconstructed-open-graph.jpg",
+        "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg",
     },
-    category: {
+    category: { 
       type: String,
       default: "uncategorized",
     },
